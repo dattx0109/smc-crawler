@@ -1,0 +1,66 @@
+.domainJobFilter {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% - 200px);
+  float: left;
+  &__Container {
+    display: block;
+    width: 100%;
+  }
+  &__Item {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    &:last-child {
+      margin-right: 0;
+    }
+    label {
+      margin-right: 5px;
+      float: left;
+    }
+    .chosen-container {
+      text-align: left;
+    }
+  }
+  &__resultText {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+}
+.head-title-top {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #1ab394;
+}
+.domainJob-ibox-title {
+  display: inline-block;
+  width: 100%;
+}
+.config-head-btn-bottom {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.success-tag {
+  background: #1ab394;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 8px;
+  text-shadow: none;
+  color: #fff;
+}
+.fail-tag {
+  background: red;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 8px;
+  text-shadow: none;
+  color: #fff;
+}
+.chosen-select-no-search {
+  .chosen-search {
+    display: none;
+  }
+}
+.label-success, .label-danger, .label-warning {
+  font-size: 12px;
+}

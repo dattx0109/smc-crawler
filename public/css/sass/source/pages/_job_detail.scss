@@ -1,0 +1,52 @@
+.jobDetail-container {
+  padding: 20px 0 90px;
+  table {
+    td {
+      &.null-info-block {
+        color: #F15565;
+        font-weight: 900;
+        a {
+          color: #F15565;
+        }
+      }
+      strong {
+        font-size: 16px;
+        fton-weight: 600;
+        text-transform: uppercase;
+      }
+      img {
+        height: 50px;
+        width: auto;
+      }
+    }
+    @media (max-width: 1400px) and (min-width: 1024px) {
+      th {
+        width: 30%;
+      }
+      td {
+        width: 70%;
+      }
+    }
+    @media (min-width: 1401px) {
+      th {
+        width: 25%;
+      }
+      td {
+        width: 65%;
+      }
+    }
+  }
+}
+.jobDetail {
+  &__Item {
+    margin-bottom: 25px;
+  }
+  &__Title {
+    padding: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    background: #1ab394;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+}
